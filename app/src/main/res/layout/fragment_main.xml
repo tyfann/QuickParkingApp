@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpager_main_head_ad"
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+    </androidx.viewpager.widget.ViewPager>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/main_search">
+    </include>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="181dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:background="@mipmap/map" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="181dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="180dp"
+        android:background="@mipmap/money" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="192dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        app:srcCompat="@mipmap/feedback" />
+    <!--
+        <ScrollView
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vpager_main_head_ad"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycleview_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </RelativeLayout>
+        </ScrollView>-->
+
+
+
+</RelativeLayout>
+

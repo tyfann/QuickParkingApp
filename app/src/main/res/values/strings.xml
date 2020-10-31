@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PARK</string>
+    <string-array name="main_menu">
+        <item>我的地图</item>
+        <item>付费</item>
+        <item>反馈</item>
+    </string-array>
+    <string name="park">%1$s</string>
+    <string name="map">□  □  ■  ■  ■  ■  ■  ■  ■  ■\n□  □  □  □  □  □  □  □  □  ■\n□ ▲▲▲□ □ ▲▲▲■\n□  □  □  □  □   □  □  □  □  ■\n□ ▲▲▲□  □ ▲▲▲■\n■  □  □  □  □  □   □  □  □  ■\n□  ▲▲▲□  □   ▲▲▲■\n□  □  □  □  □  □  □  □  □  ■\n□  ▲▲▲▲▲▲▲▲■\n□ □ □ □ □ □ □ □  □  ■\n□  ▲▲▲▲▲▲□ ▲■\n□  □  □  □  □  □  □  □  □  ■\n□  ▲▲▲▲▲▲▲▲■\n□  □  □  □  □  □  □  □  □  □\n□ ▲▲▲▲▲▲▲▲■\n□  □  □  □  □  □  □  □  □  ■\n□  ▲▲▲□  □  ▲▲▲■\n□  □  □  □  □  □  □  □  □  ■\n□  ▲▲▲□  □  ▲▲▲■\n■  ■  ■  ■  ■  ■  ■  ■  ■  ■ </string>
+
+</resources>
